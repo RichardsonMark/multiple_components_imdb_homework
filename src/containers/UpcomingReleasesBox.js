@@ -39,6 +39,9 @@ const UpcomingReleaseBox = () => {
         <>
             <h1>Upcoming Film Releases for UK</h1>
             <UpcomingReleaseList releases={releases} />
+            <form action="https://www.imdb.com/calendar/?region=gb">
+              <button>View more upcoming releases</button>
+            </form>
         </>
     );
 }

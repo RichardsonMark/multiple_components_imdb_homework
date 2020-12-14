@@ -2,8 +2,7 @@ const UpcomingRelease = ({name, url}) =>{
 
     return (
         <>
-            <p>{name}</p>
-            <p>{url}</p>            
+            <a href={url}><p>{name}</p></a>           
         </>
     )
 }
