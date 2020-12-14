@@ -1,7 +1,9 @@
+import UpcomingReleaseBox from "./containers/UpcomingReleasesBox";
 
 
 function App() {
   return (
+    <UpcomingReleaseBox />
 
   );
 }
